@@ -1,10 +1,14 @@
 # IGC
 learning notes about IGC project and so on
 
+# Business Glossaries 
+
 ## Category
+Created by IGC Author
 
 ## Term
-One of the major reasons for having a glossary of terms is to apply the terms to company information assets. 
+* One of the major reasons for having a glossary of terms is to apply the terms to company information assets. 
+* Created by IGC Author
 
 ### Associated Terms
 * Related Terms: can be used as a catch-all if none of the other more specific relationships apply. 
@@ -18,9 +22,12 @@ Asset types include:
 * Data quality assets, such as data rules. We have Rules implemented by Data Rules, why assign them to Terms???
 * ETL assets, such as DataStage jobs  
 
-External Assets are defined by an IGC administrator. 
-
 ## Labels
 * A text string used to group a set of terms together
 * Created by an IGC administrator
 * Can be applied to assets by any IGC user with authoring authorization. 
+
+# Information Assets
+
+## External Assets
+External Assets are defined by an IGC administrator. 
