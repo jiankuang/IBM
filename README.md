@@ -1,7 +1,7 @@
 # IGC
 learning notes about IGC project and so on
 
-# Business Glossaries 
+# Business Glossary
 
 ## Category
 Created by IGC Author
