@@ -40,8 +40,8 @@ Compare the column analysis results for two versions of the same data source.
 
 ### Project
 Project creation process: Create project -> Add data sources -> Add users -> Configure options
-#### Add Users
-Overview -> Project Properties -> Users -> Browse
+#### Add Users/Groups
+Overview -> Project Properties -> Users/Groups -> Browse
 
 ### Published Rules
 Develop -> Data Quality
