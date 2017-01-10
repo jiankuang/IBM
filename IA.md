@@ -22,5 +22,10 @@ To determine if columns contain overlapping or redundant data, you can run a **k
 Compare the column analysis results for two versions of the same data source.   
 
 ## Configurations
+### Different IA Roles
+* IA Data Administrator: Creating a data connection to the analysis database, Configure global analysis settings. 
+* IA Project Administrator: Creating a project and configuring project-level settings. 
+* IA User: Configure the project dashboard. 
+
 ### Published Rules
 Develop -> Data Quality
