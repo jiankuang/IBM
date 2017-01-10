@@ -46,6 +46,8 @@ Overview -> Project Properties -> Data Sources -> Add
 Overview -> Project Properties -> Users/Groups -> Browse
 #### Modifying project analysis settings
 Overview -> Project Properties -> Analysis Settings -> Project
+#### Enabling drill down security for a project
+Once drill down security is enabled for a project, only users with the IA drill down project role can drill down into data. 
 
 ### Jobs
 When multiple analysis jobs are sent for processing, they are processed in a **queue**. 
