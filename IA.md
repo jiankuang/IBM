@@ -38,5 +38,10 @@ Compare the column analysis results for two versions of the same data source.
 * IA Data Steward
 * IA Drill Down User
 
+### Project
+Project creation process: Create project -> Add data sources -> Add users -> Configure options
+#### Add Users
+Overview -> Project Properties -> Users -> Browse
+
 ### Published Rules
 Develop -> Data Quality
