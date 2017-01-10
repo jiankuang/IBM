@@ -62,3 +62,7 @@ When multiple analysis jobs are sent for processing, they are processed in a **q
 
 ### Published Rules
 Develop -> Data Quality
+
+## Managing Metadata
+### Terms
+Terms that are defined in IGC are available in IA and vice versa. 
