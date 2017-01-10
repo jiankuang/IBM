@@ -22,10 +22,21 @@ To determine if columns contain overlapping or redundant data, you can run a **k
 Compare the column analysis results for two versions of the same data source.   
 
 ## Configurations
-### Different IA Roles
+### Roles
+#### Suite Roles
+* Suite Administrator: Provides maximum administration privileges throughout the suite. 
+* Suite User: Provides access to the suite and to suite components. Default role. 
+
+#### Suite Component Roles
 * IA Data Administrator: Creating a data connection to the analysis database, Configure global analysis settings. 
 * IA Project Administrator: Creating a project and configuring project-level settings. 
 * IA User: Configure the project dashboard. 
+
+#### Project Roles
+* IA Business Analyst
+* IA Data Operator
+* IA Data Steward
+* IA Drill Down User
 
 ### Published Rules
 Develop -> Data Quality
