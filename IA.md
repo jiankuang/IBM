@@ -40,8 +40,12 @@ Compare the column analysis results for two versions of the same data source.
 
 ### Project
 Project creation process: Create project -> Add data sources -> Add users -> Configure options
+#### Associating imported metadata with your project
+Overview -> Project Properties -> Data Sources -> Add
 #### Add Users/Groups
 Overview -> Project Properties -> Users/Groups -> Browse
+#### Modifying project analysis settings
+Overview -> Project Properties -> Analysis Settings -> Project
 
 ### Jobs
 When multiple analysis jobs are sent for processing, they are processed in a **queue**. 
