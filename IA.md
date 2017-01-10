@@ -36,7 +36,7 @@ Compare the column analysis results for two versions of the same data source.
 * IA Business Analyst
 * IA Data Operator
 * IA Data Steward
-* IA Drill Down User
+* IA Drill Down User: specify the users who have permission to drill down to view the source data in your project. 
 
 ### Project
 Project creation process: Create project -> Add data sources -> Add users -> Configure options
