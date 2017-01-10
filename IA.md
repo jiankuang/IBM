@@ -43,5 +43,8 @@ Project creation process: Create project -> Add data sources -> Add users -> Con
 #### Add Users/Groups
 Overview -> Project Properties -> Users/Groups -> Browse
 
+### Jobs
+When multiple analysis jobs are sent for processing, they are processed in a **queue**. 
+
 ### Published Rules
 Develop -> Data Quality
