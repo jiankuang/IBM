@@ -1,6 +1,26 @@
 # Information Analyzer
-## Published Rules
-Develop -> Data Quality
 
-## Column Analysis
-Investigate -> Column Analysis
+## Scenarios for Information Analysis
+### Data Quality Assessment Project
+* To profile your data, you run column analysis, key and cross-domain analysis, and baseline analysis to evaludate the content and structure of the data. 
+* The results from data profiling project can help you to determine whether you need to complete data cleansing tasks on your data by using **QualityStage**
+
+## Different Types of Analyses
+### Column Analysis
+* After column analysis completes, a frequency distribution for each column is generated and then used as the input for the subsequent analyses. 
+* Investigate -> Column Analysis
+
+### Primary Key Analysis
+
+### Foregin Key Analysis
+Run a **key and cross-domain analysis** job, compare the primary key of one table to the columns of another table to determine if there is a relationship between the two tables. 
+
+### Redundant Analysis
+To determine if columns contain overlapping or redundant data, you can run a **key and cross-domain analysis** job across columns in one or multiple tables or sources. 
+
+### Baseline Analysis
+Compare the column analysis results for two versions of the same data source.   
+
+## Configurations
+### Published Rules
+Develop -> Data Quality
