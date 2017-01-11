@@ -65,4 +65,13 @@ Develop -> Data Quality
 
 ## Managing Metadata
 ### Terms
-Terms that are defined in IGC are available in IA and vice versa. 
+Terms that are defined in IGC are available in IA and vice versa.  
+Open IGC Category Hierarchy from IA: Home -> Metadata Management -> Terms -> Manage Term
+#### Assigning assets to a term 
+Terms -> Select a term -> Preview Term -> Assigned Assets -> Assgin New Asset
+### Policies
+Why Policies in IGC do not show in IA? They are different?
+### Contacts
+A contact contains personal information such as names, addresses, and telephone numbers of users. 
+### Data Classes 
+You can add a new data class to extend data classification and analysis capabilities. 
