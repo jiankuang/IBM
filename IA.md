@@ -7,8 +7,8 @@
 
 ## Different Types of Analyses
 ### Column Analysis
-* After column analysis completes, a frequency distribution for each column is generated and then used as the input for the subsequent analyses. 
 * Investigate -> Column Analysis
+* After column analysis completes, a frequency distribution for each column is generated and then used as the input for the subsequent analyses. 
 
 ### Primary Key Analysis
 
@@ -44,8 +44,15 @@ Project creation process: Create project -> Add data sources -> Add users -> Con
 Overview -> Project Properties -> Data Sources -> Add
 #### Add Users/Groups
 Overview -> Project Properties -> Users/Groups -> Browse
-#### Modifying project analysis settings
+#### Analysis Settings
 Overview -> Project Properties -> Analysis Settings -> Project
+* Column analysis settings
+  - Nullability threshold
+  - Uniqueness threshold
+  - Constant threshold
+* Table analysis settings
+* Cross-table analysis settings
+
 #### Enabling drill down security for a project
 Once drill down security is enabled for a project, only users with the IA drill down project role can drill down into data. 
 #### Customizing the project dashboard
