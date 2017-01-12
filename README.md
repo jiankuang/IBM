@@ -1,2 +1,2 @@
-# IGC
-learning notes about IGC project and so on
+# Information Governance Catalog
+Learning notes about IGC product and some other IIS (InfoSphere Information Server) products. 
