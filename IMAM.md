@@ -1,5 +1,8 @@
 # InfoSphere Metadata Asset Manager
-## Different Stages
+## Topology Diagram
+The components of IMAM are distributed across multiple tiers. Components are installed automatically on the services and repository tier, and manually on the client tier. 
+
+### Repository Tier
 * Staging Area
 * **Metadata Repository**: you can export assets, browse and search for common metadata assets, set implementation relationships between them, and merge duplicates. 
 
