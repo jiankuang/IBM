@@ -51,7 +51,10 @@ Overview -> Project Properties -> Analysis Settings -> Project
   - Uniqueness threshold
   - Constant threshold
 * Table analysis settings
+  - Primary key threshold
+  - **Composite key maximum**: Determine the maximum number of columns that can be combined when you search for primary key candidates. The range can be set between 2-32. 
 * Cross-table analysis settings
+  - **Common domain threshold setting**: Determines the percentage of distinct values in the frequency distribution of one column that match distinct values in the frequency distribution of another column. If the percentage of matching distinct values is equal to or greater than the threshold, then the two columns are inferred to have a common domain. The default is 98%. 
 
 #### Enabling drill down security for a project
 Once drill down security is enabled for a project, only users with the IA drill down project role can drill down into data. 
