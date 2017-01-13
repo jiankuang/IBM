@@ -1,6 +1,7 @@
 # InfoSphere Metadata Asset Manager
 ## Topology Diagram
-The components of IMAM are distributed across multiple tiers. Components are installed automatically on the services and repository tier, and manually on the client tier. 
+The components of IMAM are distributed across multiple tiers. Components are installed automatically on the services and repository tier, and manually on the client tier.  
+![Alt text](/IMAM_topology_and_import_flow.PNG?raw=true "IMAM Topology and Import Flow")
 
 ### Repository Tier
 * Staging Area
