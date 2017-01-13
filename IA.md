@@ -40,6 +40,12 @@ Compare the column analysis results for two versions of the same data source.
 
 ### Project
 Project creation process: Create project -> Add data sources -> Add users -> Configure options
+#### Project Environment
+* **One or more Clients**: The client is connected to a **metadata repository**. The client is the interface that you use to complete tasks. 
+* A Server
+* **A Metadata Repository**: Stores all analysis work, configuration options, and analysis results. The repository is connected to data stores on a host computer through a **connector**. The metadata repository resides on the **server** computer.
+* A Connector
+
 #### Associating imported metadata with your project
 Overview -> Project Properties -> Data Sources -> Add
 #### Add Users/Groups
