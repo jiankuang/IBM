@@ -85,3 +85,6 @@ Why Policies in IGC do not show in IA? They are different?
 A contact contains personal information such as names, addresses, and telephone numbers of users. 
 ### Data Classes 
 You can add a new data class to extend data classification and analysis capabilities. 
+
+# Citation
+IBM InfoSphere Information Analyzer User's Guide.pdf 
