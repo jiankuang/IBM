@@ -3,6 +3,9 @@
 The components of IMAM are distributed across multiple tiers. Components are installed automatically on the services and repository tier, and manually on the client tier.  
 ![Alt text](/IMAM_topology_and_import_flow.PNG?raw=true "IMAM Topology and Import Flow")
 
+### Engine Tier
+The HDFS bridge is installed automatically on the engine tier on Linux and AIX only. 
+
 ### Repository Tier
 * Staging Area
 * **Metadata Repository**: you can export assets, browse and search for common metadata assets, set implementation relationships between them, and merge duplicates. 
