@@ -38,14 +38,25 @@ Compare the column analysis results for two versions of the same data source.
 * IA Data Steward
 * IA Drill Down User: specify the users who have permission to drill down to view the source data in your project. 
 
-### Global
-#### Column Analysis
+### Global Settings
+#### Column Analysis Settings
+* Nullability threshold
+* Uniqueness threshold
+* Constant threshold
+
 ##### Classification
 * **Canadian SIN**: Infers whether a column can be considered a Canadian social insurance number (SIN). 
 * **Code**: A column that contains code values that represent a specific meaning. For example, a column with the class of Code might contain data about the area code in a telephone number. 
 * **Country Code**: Infers whether a column can be considered a country or region code. 
 
-### Project
+#### Table Analysis Settings
+* Primary key threshold
+* **Composite key maximum**: Determine the maximum number of columns that can be combined when you search for primary key candidates. The range can be set between 2-32. 
+
+#### Cross-table Analysis Settings
+**Common domain threshold setting**: Determines the percentage of distinct values in the frequency distribution of one column that match distinct values in the frequency distribution of another column. If the percentage of matching distinct values is equal to or greater than the threshold, then the two columns are inferred to have a common domain. The default is 98%. 
+
+### Project Settings
 Project creation process: Create project -> Add data sources -> Add users -> Configure options
 #### Project Environment
 * **One or more Clients**: The client is connected to a **metadata repository**. The client is the interface that you use to complete tasks. 
@@ -59,15 +70,6 @@ Overview -> Project Properties -> Data Sources -> Add
 Overview -> Project Properties -> Users/Groups -> Browse
 #### Analysis Settings
 Overview -> Project Properties -> Analysis Settings -> Project
-* Column analysis settings
-  - Nullability threshold
-  - Uniqueness threshold
-  - Constant threshold
-* Table analysis settings
-  - Primary key threshold
-  - **Composite key maximum**: Determine the maximum number of columns that can be combined when you search for primary key candidates. The range can be set between 2-32. 
-* Cross-table analysis settings
-  - **Common domain threshold setting**: Determines the percentage of distinct values in the frequency distribution of one column that match distinct values in the frequency distribution of another column. If the percentage of matching distinct values is equal to or greater than the threshold, then the two columns are inferred to have a common domain. The default is 98%. 
 
 #### Enabling drill down security for a project
 Once drill down security is enabled for a project, only users with the IA drill down project role can drill down into data. 
