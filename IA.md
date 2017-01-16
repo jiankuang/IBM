@@ -5,22 +5,6 @@
 * To profile your data, you run column analysis, key and cross-domain analysis, and baseline analysis to evaludate the content and structure of the data. 
 * The results from data profiling project can help you to determine whether you need to complete data cleansing tasks on your data by using **QualityStage**
 
-## Different Types of Analyses
-### Column Analysis
-* Investigate -> Column Analysis
-* After column analysis completes, a frequency distribution for each column is generated and then used as the input for the subsequent analyses. 
-
-### Primary Key Analysis
-
-### Foregin Key Analysis
-Run a **key and cross-domain analysis** job, compare the primary key of one table to the columns of another table to determine if there is a relationship between the two tables. 
-
-### Redundant Analysis
-To determine if columns contain overlapping or redundant data, you can run a **key and cross-domain analysis** job across columns in one or multiple tables or sources. 
-
-### Baseline Analysis
-Compare the column analysis results for two versions of the same data source.   
-
 ## Configurations
 ### Roles
 #### Suite Roles
@@ -43,11 +27,6 @@ Compare the column analysis results for two versions of the same data source.
 * Nullability threshold
 * Uniqueness threshold
 * Constant threshold
-
-##### Classification
-* **Canadian SIN**: Infers whether a column can be considered a Canadian social insurance number (SIN). 
-* **Code**: A column that contains code values that represent a specific meaning. For example, a column with the class of Code might contain data about the area code in a telephone number. 
-* **Country Code**: Infers whether a column can be considered a country or region code. 
 
 #### Table Analysis Settings
 * Primary key threshold
@@ -100,6 +79,31 @@ Why Policies in IGC do not show in IA? They are different?
 A contact contains personal information such as names, addresses, and telephone numbers of users. 
 ### Data Classes 
 You can add a new data class to extend data classification and analysis capabilities. 
+
+## Data Profiling Process
+### Column Analysis
+* Investigate -> Column Analysis
+* After column analysis completes, a frequency distribution for each column is generated and then used as the input for the subsequent analyses such as primary key analysis and baseline analysis. 
+* The column analysis process incorporates four analyses:
+#### Domain analysis
+#### Data classification analysis
+* **Canadian SIN**: Infers whether a column can be considered a Canadian social insurance number (SIN). 
+* **Code**: A column that contains code values that represent a specific meaning. For example, a column with the class of Code might contain data about the area code in a telephone number. 
+* **Country Code**: Infers whether a column can be considered a country or region code. 
+
+#### Format analysis
+#### Data properties analysis
+
+### Primary Key Analysis
+
+### Foregin Key Analysis
+Run a **key and cross-domain analysis** job, compare the primary key of one table to the columns of another table to determine if there is a relationship between the two tables. 
+
+### Redundant Analysis
+To determine if columns contain overlapping or redundant data, you can run a **key and cross-domain analysis** job across columns in one or multiple tables or sources. 
+
+### Baseline Analysis
+Compare the column analysis results for two versions of the same data source.   
 
 # Citation
 IBM InfoSphere Information Analyzer User's Guide.pdf 
