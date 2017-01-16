@@ -102,8 +102,13 @@ During a key and cross-domain analysis job, your data is assessed for relationsh
 #### Foregin Key Analysis
 Run a **key and cross-domain analysis** job, compare the primary key of one table to the columns of another table to determine if there is a relationship between the two tables. 
 
+#### Referential Integrity Analysis
+* After a key and cross-domain analysis job completes, you can run a referential integrity analysis job on your data. 
+* Referential integrity analysis is an analysis that you use to fully identify violations between foreign key and primary or natural key relationships. 
+
 #### Redundant Analysis
-To determine if columns contain overlapping or redundant data, you can run a **key and cross-domain analysis** job across columns in one or multiple tables or sources. 
+* To determine if columns contain overlapping or redundant data, you can run a **key and cross-domain analysis** job across columns in one or multiple tables or sources. 
+* If there are redundancies in your data, you might want to use a data cleansing tool to remove them because redundant data can take up memory and slow down the processes that are associated with them. 
 
 ### Baseline Analysis
 Compare the column analysis results for two versions of the same data source.   
