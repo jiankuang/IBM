@@ -113,5 +113,7 @@ Run a **key and cross-domain analysis** job, compare the primary key of one tabl
 ### Baseline Analysis
 Compare the column analysis results for two versions of the same data source.   
 
+![Alt text](/IA_data_profilling_analyses.PNG?raw=true "IA Data Profilling Analyses")
+
 # Citation
 IBM InfoSphere Information Analyzer User's Guide.pdf 
