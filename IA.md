@@ -38,6 +38,13 @@ Compare the column analysis results for two versions of the same data source.
 * IA Data Steward
 * IA Drill Down User: specify the users who have permission to drill down to view the source data in your project. 
 
+### Global
+#### Column Analysis
+##### Classification
+* **Canadian SIN**: Infers whether a column can be considered a Canadian social insurance number (SIN). 
+* **Code**: A column that contains code values that represent a specific meaning. For example, a column with the class of Code might contain data about the area code in a telephone number. 
+* **Country Code**: Infers whether a column can be considered a country or region code. 
+
 ### Project
 Project creation process: Create project -> Add data sources -> Add users -> Configure options
 #### Project Environment
