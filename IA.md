@@ -95,12 +95,14 @@ You can add a new data class to extend data classification and analysis capabili
 #### Format analysis
 #### Data properties analysis
 
-### Primary Key Analysis
+### Key and Cross-domain Analysis
+During a key and cross-domain analysis job, your data is assessed for relationships between tables. 
 
-### Foregin Key Analysis
+#### Primary Key Analysis
+#### Foregin Key Analysis
 Run a **key and cross-domain analysis** job, compare the primary key of one table to the columns of another table to determine if there is a relationship between the two tables. 
 
-### Redundant Analysis
+#### Redundant Analysis
 To determine if columns contain overlapping or redundant data, you can run a **key and cross-domain analysis** job across columns in one or multiple tables or sources. 
 
 ### Baseline Analysis
