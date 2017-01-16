@@ -85,6 +85,7 @@ You can add a new data class to extend data classification and analysis capabili
 * Investigate -> Column Analysis
 * After column analysis completes, a frequency distribution for each column is generated and then used as the input for the subsequent analyses such as primary key analysis and baseline analysis. 
 * The column analysis process incorporates four analyses:
+
 #### Domain analysis
 #### Data classification analysis
 * **Canadian SIN**: Infers whether a column can be considered a Canadian social insurance number (SIN). 
