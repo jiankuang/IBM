@@ -84,6 +84,10 @@ You can add a new data class to extend data classification and analysis capabili
 ### Column Analysis
 * Investigate -> Column Analysis
 * After column analysis completes, a frequency distribution for each column is generated and then used as the input for the subsequent analyses such as primary key analysis and baseline analysis. 
+* Result:
+  - **Cardinality Percent**: cardinality: the number of elements in a set or other grouping, as a property of that grouping. 
+  - Precision
+  - Cardinality Type
 * The column analysis process incorporates four analyses:
 
 #### Domain analysis
