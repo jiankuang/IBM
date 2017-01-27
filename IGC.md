@@ -47,6 +47,11 @@ External Assets are defined by an IGC administrator.
 
 # Administration
 ## Setup
+### Custom View
+* Customize the order of properties in the Details page of some asset types (Term, Category, Rule, Policy). 
+* Each Asset Type can only have one Custom View.
+* Custom View is shared by all users. 
+
 ### Language Setting
 * Specify the language for the user interface and for catalog content. 
 * If you turn off Chinese in language setting for catalog content, you cannot search Chinese term. 
