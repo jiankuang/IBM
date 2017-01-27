@@ -44,3 +44,8 @@ External Assets are defined by an IGC administrator.
 * Collections can be shared through Visilibity. 
 * Shared Users can edit collection, even add themselves as Owners. **Not sure this is a good design!!!**
 * Collection modification doesn't go through Workflow. (Workflow only works on Business Glossary)
+
+# Administration
+## Setup
+### Language Setting
+Specify the language for the user interface and for catalog content. 
