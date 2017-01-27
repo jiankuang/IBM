@@ -22,12 +22,23 @@ Asset types include:
 * Data quality assets, such as data rules. We have Rules implemented by Data Rules, why assign them to Terms???
 * ETL assets, such as DataStage jobs  
 
+# Information Assets
+
+## External Assets
+External Assets are defined by an IGC administrator. 
+
+# Other Assets
 ## Labels
 * A text string used to group a set of terms together
 * Created by an IGC administrator
 * Can be applied to assets by any IGC user with authoring authorization. 
 
-# Information Assets
-
-## External Assets
-External Assets are defined by an IGC administrator. 
+## Collections
+* We can add both business glossary and information assets even collections into collection. 
+* Collection can have multiple owners. 
+* Collection can have multiple child collections. 
+* Collection can be put in multiple parent collections. 
+* Collections can be searched by Name, Short Description, Long Description, Labels, Modified Time. 
+* Collections can be shared through Visilibity. 
+* Shared Users can edit collection, even add themselves as Owners. **Not sure this is a good design!!!**
+* Collection modification doesn't go through Workflow. (Workflow only works on Business Glossary)
