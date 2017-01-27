@@ -35,7 +35,7 @@ External Assets are defined by an IGC administrator.
 * Label modification doesn't go through Workflow. 
 
 ## Collections
-* A **Collection** is a group of differnet types of assets that are brought together for analysis or for a common business context. 
+* A **Collection** is a group of different types of assets that are brought together for analysis or for a common business context. 
 * We can add both business glossary and information assets even collections into collection. 
 * Collection can have multiple owners. 
 * Collection can have multiple child collections. 
