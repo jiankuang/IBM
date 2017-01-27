@@ -45,6 +45,15 @@ External Assets are defined by an IGC administrator.
 * Shared Users can edit collection, even add themselves as Owners. **Not sure this is a good design!!!**
 * Collection modification doesn't go through Workflow. (Workflow only works on Business Glossary)
 
+## Lineage Reports
+### Data Lineage Reports
+* **Data lineage reports** show the movement of data through a job or multiple jobs. 
+
+### Business Lineage Reports
+* **Business lineage reports** show a simplified view of lineage that highlights the transformation and aggregation of data that is needed by a business user. 
+* A user of IBM Glossary Anywhere and external programs such as IBM Cognos, can create a business lineage report for an asset. 
+
+
 # Administration
 ## Setup
 ### Custom View
