@@ -66,4 +66,8 @@ External Assets are defined by an IGC administrator.
 * If you turn off Chinese in language setting for catalog content, you cannot search Chinese term. 
 * Catalog content support for English is always on, even if you turn it off. 
 * You can still create Chinese term even if catalog content support for Chinese is truned off, but you can't specify it as Chinese term. 
-* Turning off Chinese content support will turn off terms specified as Chinese but not Chinese term specified as undefined Language. 
+* Turning off Chinese content support will turn off terms specified as Chinese but not Chinese term specified as undefined Language.
+
+## Lineage Management
+### Manage Lineage Filters
+Create and share filters that can be applied to data lineage and business lineage reports. 
