@@ -74,6 +74,8 @@ Create and share filters that can be applied to data lineage and business lineag
 
 # Update
 ## Update IGC Rollup 6 Patch 
+http://www-01.ibm.com/support/docview.wss?uid=swg21996466  
+
 * Update IIS from 11.5 to 11.5.0.1 (see IIS.md)
 * Install ISF Rollup 5 version 2: https://www-945.ibm.com/support/fixcentral/swg/selectFixes?&product=ibm/Information+Management/IBM+InfoSphere+Information+Server&function=fixId&fixids=is11501_isf_ru5
 * Install IIS Data Integration Rollup 1: http://www-01.ibm.com/support/docview.wss?uid=swg24043187 
