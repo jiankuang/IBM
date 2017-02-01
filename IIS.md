@@ -10,4 +10,5 @@
 * Install Update Installer: unzip and copy to `C:\IBM\InformationServer\Updates`
 * Use Update Installer install Fix Pack 1: 
   - cmd(admin): `cd C:\IBM\InformationServer\Updates\bin` `installUpdates.exe` 
+  - use Update Installer to install patch `fixpack_FP1_IS115_windows_11500.ispkg` (1.1GB)
   - Application Server Administrator: wasadmin/wasadmin
