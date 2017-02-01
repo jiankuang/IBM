@@ -71,3 +71,13 @@ External Assets are defined by an IGC administrator.
 ## Lineage Management
 ### Manage Lineage Filters
 Create and share filters that can be applied to data lineage and business lineage reports. 
+
+# Update
+## Update IGC Rollup 6 Patch 
+* Update IIS from 11.5 to 11.5.0.1 (see IIS.md)
+* Install ISF Rollup 5 version 2: https://www-945.ibm.com/support/fixcentral/swg/selectFixes?&product=ibm/Information+Management/IBM+InfoSphere+Information+Server&function=fixId&fixids=is11501_isf_ru5
+* Install IIS Data Integration Rollup 1: http://www-01.ibm.com/support/docview.wss?uid=swg24043187 
+* Install the patch for APAR JR56569: https://www-945.ibm.com/support/fixcentral/swg/selectFixes?product=ibm/Information+Management/IBM+InfoSphere+Information+Server&release=All&platform=All&function=fixId&fixids=is115_JR56569_XML_engine_client_all
+* Install the patch for APAR JR56733: https://www-945.ibm.com/support/fixcentral/swg/selectFixes?product=ibm/Information+Management/IBM+InfoSphere+Information+Server&release=All&platform=All&function=fixId&fixids=is11501_JR56733_ccgui_client_win
+
+* Install Governance Rollup 6: https://www-945.ibm.com/support/fixcentral/swg/downloadFixes?product=ibm/Information+Management/IBM+InfoSphere+Information+Server&release=All&platform=All&function=fixId&fixids=is11501_JR56838_IGC_services_engine_client_multi&includeRequisites=1&includeSupersedes=0&downloadMethod=http
