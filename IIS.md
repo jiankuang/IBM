@@ -21,6 +21,27 @@ istool query           | Query common metadata (implemented data resources, logi
 istool deletecm        | Delete common metadata
 istool delete          | Delete InfoSphere DataStage and QualityStage assets
 
+### istool export/import
+Import/Export the following types of assets:
+* Common metadata assets
+  - Implemented data resources
+  - Business intelligence (BI) assets
+  - Physical data model assets
+  - Data connections
+  - Contract libraries
+* Custom attributes
+* Data Click assets
+* InfoSphere DataStage and QualityStage assets
+* FastTrack assets
+* Information Analyzer assets
+* IGC extended data sources and extension mapping documents
+* IMAM artifacts
+* InfoSphere Streams assets
+* Logical data model assets
+* MDM models
+* Reporting assets
+* Security assets
+
 ## Update IIS from 11.5 to 11.5.0.1
 * Download **11.5.0.1 Fix Pack 1** and **Update Installer 11.5.1.93** (prerequisite): https://www-945.ibm.com/support/fixcentral/swg/downloadFixes?product=ibm/Information+Management/IBM+InfoSphere+Information+Server&function=fixId&fixids=is115_fp1_server_client_win&includeRequisites=1&includeSupersedes=0&downloadMethod=http&login=true
 * Install Update Installer: unzip and copy to `C:\IBM\InformationServer\Updates`
