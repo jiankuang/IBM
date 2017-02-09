@@ -24,7 +24,7 @@ istool delete          | Delete InfoSphere DataStage and QualityStage assets
 ### istool export/import
 Import/Export the following types of assets:
 * Common metadata assets: using `-commonmetadata` parameter
-  - Implemented data resources
+  - Implemented data resources: `export -dom 192.168.168.90:9443 -username isadmin -password isadmin -archive "C:\Users\jian\istool_workspace\commonmetadata_archive.isx" -commonmetadata '/PAVAN90/XE/ESTUATE/*.tbl'`
   - Business intelligence (BI) assets
   - Physical data model assets
   - Data connections
