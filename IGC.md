@@ -72,6 +72,22 @@ External Assets are defined by an IGC administrator.
 ### Manage Lineage Filters
 Create and share filters that can be applied to data lineage and business lineage reports. 
 
+## Roles
+### Security Roles
+* IGC User
+* IGC Glossary Basic User
+* IGC Glossary Author
+* IGC Glossary Administrator
+* IGC Information Asset Author
+* IGC Information Asset Assigner
+* IGC Information Asset Administrator
+
+### Workflow Roles of Glossary Assets
+* Editor
+* Reviewer
+* Approver
+* Publisher
+
 # Update
 ## Update IGC Rollup 6 Patch 
 http://www-01.ibm.com/support/docview.wss?uid=swg21996466  
