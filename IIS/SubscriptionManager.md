@@ -17,6 +17,15 @@ Email notifications are sent to you. You can specify that **other suite users** 
 * When you no longer need a process, you can remove it by using the `istool event unregisterCallback` command. 
   - The process is removed from Subscription Manager and you need to delete any subscriptions that use the removed process.
   
+### Sample processes in the application
+When you install **Data Quality Exception Console**, the following sample processes are installed and registered, and subscriptions that use the processes are automatically created.
+
+#### Data Quality Exception Console
+When a NEW_EXCEPTIONS_EVENT is generated, a preexisting subscription to the process ensures that all new exception sets appear in Data Quality Exception Console.
+
+#### IBM Stewardship Center - Data Quality Exception
+IBM Stewardship Center - Data Quality Exception is a sample process that sends exceptions sets from Data Quality Exception Console to IBM Stewardship Center to be managed.
+  
 # Subscriptions
 * Two subscriptions are created automatically when you install **Data Quality Exception Console**, one subscription for each exception event type. 
 * You must have the role of IIS Suite Admin to see and delete those subscriptions. 
