@@ -1,6 +1,10 @@
 # Notification Types
 ## Email 
 Email notifications are sent to you. You can specify that **other suite users** receive copies of the email. 
+
+### Configuring an email provider
+To use Subscription Manager to send email notifications to users, you must specify and configure the email server that is used. 
+
 ## Application 
 * An application is a software program or routine that takes a specific action when it is notified of the event.
   - For example, an application might start a process to notify users of a change to an exception that occurred in a data rule.
