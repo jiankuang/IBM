@@ -1,4 +1,4 @@
-# Notification types
+# Notification Types
 ## Email 
 Email notifications are sent to you. You can specify that **other suite users** receive copies of the email. 
 ## Application 
